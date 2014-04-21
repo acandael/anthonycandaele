@@ -1,0 +1,117 @@
+body {
+  font-size: 16px;
+}
+p {
+  color: #666666;
+}
+header {
+  height: 60px;
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 20px;
+  color: #666666;
+}
+.logo {
+  float: left;
+  margin: 0 20px 0 10px;
+}
+h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 2em;
+  line-height: 2.2em;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  
+}
+.main-nav {
+  float: left;
+  margin: 0 20px 0 40px;
+}
+.main-nav ul {
+  margin: 0;
+}
+.main-nav ul li {
+  display: inline;
+  float: left;
+  margin-right: 20px;
+  font-size: 2em;
+  font-weight: 400;
+  line-height: 2.2em;
+}
+.main-nav a {
+  text-decoration: none;
+  color: inherit;
+}
+.main-nav a:hover {
+  border-bottom: 2px dotted #ccc;
+}
+.main-nav img {
+  vertical-align: middle;
+}
+.social {
+  float: right;
+  padding-top: 8px;
+}
+.social img {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+a.social {
+  color: #99cc33;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+a.social:hover {
+  border: none;
+}
+
+p {
+  font-size: 2em;
+  font-family: Georgia, serif;
+  line-height: 1.2em;
+}
+
+.green {
+  color: #99cc33;
+}
+
+section.home {
+  margin-top: 100px;
+  padding-top: 20px;
+  width: 100%;
+  text-align: center;
+}
+section.home img {
+  border-radius: 50%;
+  width: 25%;
+}
+
+footer {
+  font-family: 'Helvitica Neue', sans-serif;
+  color: #666666;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+footer p {
+  font-size: 1em;
+  float: left;
+  margin-left: 10px;
+}
+footer ul {
+  float: right;
+  margin-right: 10px;
+}
+footer ul li {
+  display: inline-block;
+}
+footer ul li:last-child {
+  margin-left: 20px;
+}
+footer a {
+  text-decoration: none;
+  color: inherit;
+}
+footer a:hover {
+  color: #99cc33;
+}
