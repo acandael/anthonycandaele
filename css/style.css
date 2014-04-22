@@ -23,6 +23,10 @@ header {
 .logo a {
   text-decoration: none;
 }
+
+.logo a:visited {
+  color: #666666;
+}
 .logo h1 {
   font-family: "Open Sans", sans-serif;
   font-size: 2em;
@@ -95,7 +99,7 @@ section.home p {
   color: #99cc33;
 }
 
-section.home, section.about, section.portfolio, section.blogroll {
+section.home, section.about, section.portfolio, section.blogroll, section.blogpost {
   margin-top: 100px;
   margin-bottom: 20px;
   padding-top: 20px;
@@ -115,7 +119,7 @@ section.portfolio {
   margin-top: 0;
 }
 
-section.blogroll {
+section.blogroll, section.blogpost {
   width: 70%;
   height: 100%;
   margin: 0 auto;
@@ -179,25 +183,32 @@ article.blogpost {
 }
 
 
-article.blogpost footer {
+section.blogroll article.blogpost footer {
   position: relative;
   float: left;
   width: 25%;
   margin-right: 0;
   text-align: right;
 }
-article.blogpost footer time {
+
+article.blogpost footer{
  font-size: 18px;
  font-family: "Tisa Pro", Georgia, serif;
  font-variant: small-caps;
 }
 
+section.blogpost article.blogpost footer {
+  position: relative;
+}
+
+section.blogroll article.blogpost header {
+  float: right;
+  width: 70%;
+}
 
 article.blogpost header {
-  width: 70%;
   height: auto;
   overflow: hidden;
-  float: right;
   margin-left: 0;
   padding-left: 0
 }
@@ -208,8 +219,17 @@ article.blogpost p {
 
 
 
-article h1 {
-  font-size: 1.5em;
+article.blogpost h1 {
+  font-size: 2em;
+}
+
+article.blogpost h2 {
+  padding-top: 20px;
+}
+
+article.blogpost img {
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 article p {
