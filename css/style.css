@@ -134,22 +134,33 @@ aside img {
 
 article {
   clear: both;
-  margin-top: 20px;
-  margin-left: 50px;
-  margin-bottom: 50px;
-  float: left;
+  overflow: hidden;
+  margin: 20px auto 50px auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
   text-align: left;
   width: 80%;
-
+  height: 100%;
+  border-bottom: 2px dotted #ccc;
 }
 
 article header {
   padding-top: 0;
+  margin-bottom: 0;
 }
 
-article h1 {
+article ul, h1, h2 {
   margin-top: 0;
-  font-size: 1.5em;
+  margin-bottom: 0;
+}
+
+article a {
+  color: #99cc33;
+  text-decoration: none;
+}
+
+article li {
+  font-family: "Tisa Pro", Georgia, serif;
 }
 
 article.portfolio img {
@@ -158,8 +169,17 @@ article.portfolio img {
   padding-top: 5px;
 }
 
+article h1 {
+  font-size: 1.5em;
+}
+
 article p {
   font-size: 1em;
+}
+
+div.lead {
+  margin-bottom: 20px;
+  padding-bottom: 10px;
 }
 
 
