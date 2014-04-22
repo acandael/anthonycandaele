@@ -95,7 +95,7 @@ section.home p {
   color: #99cc33;
 }
 
-section.home, section.about, section.portfolio {
+section.home, section.about, section.portfolio, section.blogroll {
   margin-top: 100px;
   margin-bottom: 20px;
   padding-top: 20px;
@@ -113,6 +113,12 @@ section.about {
 
 section.portfolio {
   margin-top: 0;
+}
+
+section.blogroll {
+  width: 70%;
+  height: 100%;
+  margin: 0 auto;
 }
 
 aside.about {
@@ -140,7 +146,6 @@ article {
   padding-bottom: 10px;
   text-align: left;
   width: 80%;
-  height: 100%;
   border-bottom: 2px dotted #ccc;
 }
 
@@ -169,6 +174,40 @@ article.portfolio img {
   padding-top: 5px;
 }
 
+article.blogpost {
+  border-bottom: none;
+}
+
+
+article.blogpost footer {
+  position: relative;
+  float: left;
+  width: 25%;
+  margin-right: 0;
+  text-align: right;
+}
+article.blogpost footer time {
+ font-size: 18px;
+ font-family: "Tisa Pro", Georgia, serif;
+ font-variant: small-caps;
+}
+
+
+article.blogpost header {
+  width: 70%;
+  height: auto;
+  overflow: hidden;
+  float: right;
+  margin-left: 0;
+  padding-left: 0
+}
+
+article.blogpost p {
+  font-size: 1.2em;
+}
+
+
+
 article h1 {
   font-size: 1.5em;
 }
@@ -178,7 +217,10 @@ article p {
 }
 
 div.lead {
+  clear: both;
   margin-bottom: 20px;
+  margin-top: 20px;
+  padding-top: 10px;
   padding-bottom: 10px;
 }
 
